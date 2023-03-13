@@ -1,0 +1,16 @@
+@font-face {font-family: 'Times Roman'; src: url('fonts/Times-Roman.woff2') format('woff2')}
+body {color:#655a3d;background:#fbf1c7;max-width: 50%;margin:0rem auto;font-family:'Amiri','Times Roman','Times New Roman','Times'; font-size:24px} 
+p {padding-bottom:0.8em}
+a {color:#7e2310}
+hr {height: 1px;border: 0;background: #d6cbaf;margin: 0.8rem}
+h1 {padding-bottom: 0.4em}
+h2 {padding-bottom: 0.6em; padding-top: 0.6em}
+h3 {padding-bottom: 0.6em; padding-top: 0.6em}
+#title { text-align: center; font-size:100px}
+#date { font-style: italic; font-size: 24px; text-align: center}
+img {width: 100%; height: auto; margin: auto}
+@media only screen and (max-width: 600px) {
+    body {max-width:none;font-size: 16px;padding:0.50em}
+    #title {font-size: 65px;}
+    #date {font-size:18px}
+}
